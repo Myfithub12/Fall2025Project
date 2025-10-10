@@ -1,6 +1,6 @@
 #hamnav {
   width: 100%;
-  background: rgb(116, 78, 78);
+  background: rgb(59, 19, 220);
   position: sticky;
   top: 0;
 }
@@ -14,7 +14,7 @@
   text-decoration: none;
   text-align: center;
 }
-#hamitems a:hover { background: #2e1f74; }
+#hamitems a:hover { background: #2d2456; }
 
 #hamnav label, #hamburger { display: none; }
 
@@ -23,13 +23,13 @@
     box-sizing: border-box;
     display: block;
     width: 100%;
-    border-top: 1px solid rgb(46, 161, 61);
+    border-top: 1px solid rgb(190, 223, 194);
   }
 
   #hamnav label {
     display: inline-block;
     color: white;
-    background: #a02620;
+    background: #f9362c;
     font-style: normal;
     font-size: 1.2em;
     padding: 10px;
