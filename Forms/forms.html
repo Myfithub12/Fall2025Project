@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text" href="forms.css">
+    <script src="forms.js"></script>
+</head>
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="action_forms.php" method="GET">
+            <label for="username">Username:</label><br>
+            <input type="text" id="username" name="username" required><br><br>
+            <label for="password">Password:</label><br>
+            <input type="password" id="password" name="password" required><br><br>
+            <button type="submit">Login</button>
+        </form>
+        <hr>
+        <h2>Create New Member</h2>
+        <form action="action_forms.php" method="GET">
+            <label for="new-username">New Username:</label><br>
+            <input type="text" id="new-username" name="new-username" required><br><br>
+            <label for="new-password">New Password:</label><br>
+            <input type="password" id="new-password" name="new-password" required><br><br>
+            <label for="confirm-password">Confirm Password</label><br>
+            <input type="password" id="confirm-password" name="confirm-password" required><br><br>
+            <label for="new-email">E-Mail</label><br>
+            <input type="email" id="new-email" required>
+            <button type="submit">Sign Up</button>
+            <button type="reset">Clear</button>
+        </form>
+    </div>
+    </section>
+</body>
+</html>
