@@ -20,9 +20,19 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 
 body {
-    padding-top: 3rem;
+    text-align: center;
+    padding-top: 100px;
     padding-bottom: 3rem;
     font-family: 'Rubik', sans-serif;
+    background-color: aqua;
+}
+
+.rotate-image {
+    transform: rotate(360deg);
+    margin: 50px;
+    border-radius: 150px;
+    padding: 25px;
+    background-color: blue;
 }
 
 
