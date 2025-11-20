@@ -11,18 +11,23 @@
     <script src="forms.js"></script>
 </head>
 <body>
+    <section>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="action_forms.php" method="GET">
+        <form action="action_forms.php" method="GET" id="loginForm">
             <label for="username">Username:</label><br>
             <input type="text" id="username" name="username" required><br><br>
             <label for="password">Password:</label><br>
             <input type="password" id="password" name="password" required><br><br>
             <button type="submit">Login</button>
         </form>
+    </div>
+    </section>
         <hr>
+        <section>
+        <div>
         <h2>Create New Member</h2>
-        <form action="action_forms.php" method="GET">
+        <form action="action_forms.php" method="GET" id="signupForm">
             <label for="new-username">New Username:</label><br>
             <input type="text" id="new-username" name="new-username" required><br><br>
             <label for="new-password">New Password:</label><br>
