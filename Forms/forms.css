@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+}
+
+section .login-container .new-member {
+    text-align: center;
+}
+
+.login-container {
+    background-color: aqua;
+}
+
+.new-member {
+    background-color: aquamarine;
+}

@@ -4,17 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text" href="forms.css">
-    <script src="forms.js"></script>
+    <link rel="stylesheet" type="text" href="/Forms/forms.css">
+    <script src="/Forms/forms.js"></script>
 </head>
 <body>
     <section>
     <div class="login-container">
         <h2>Login</h2>
-        <form action="action_forms.php" method="GET" id="loginForm">
+        <form action="/Forms/action_forms.php" method="GET" id="loginForm">
             <label for="username">Username:</label><br>
             <input type="text" id="username" name="username" required><br><br>
             <label for="password">Password:</label><br>
@@ -26,7 +23,7 @@
         <hr>
         <section>
         <div>
-        <h2>Create New Member</h2>
+        <h2 class="new-member">Create New Member</h2>
         <form action="action_forms.php" method="GET" id="signupForm">
             <label for="new-username">New Username:</label><br>
             <input type="text" id="new-username" name="new-username" required><br><br>

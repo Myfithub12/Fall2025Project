@@ -10,14 +10,6 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
     background-color: rgb(8, 43, 83);
 }
 
-.images {
-    justify-content: space-between;
-    box-shadow: 1px 3px 15px;
-    border: 4.5px solid rgb(163, 23, 133);
-    border-radius: 15%;
-    background-color: #a593c2;
-}
-
 
 body {
     text-align: center;
@@ -28,81 +20,48 @@ body {
 }
 
 .rotate-image {
-    transform: rotate(360deg);
+    max-width: 300px;
+    max-height: 300px;
     margin: 50px;
     border-radius: 150px;
     padding: 25px;
     background-color: blue;
 }
 
-
-h1{
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    color: red;
+img {
+    justify-content: center;
+    box-shadow: 1px 3px 15px;
+    border: 4.5px solid #a593c2;
+    border-radius: 15%;
+    background-color: #a593c2;
 }
 
-section {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
+button{
+    justify-content: center;
+    box-shadow: 3px 9px 45px;
+    border: 5px;
+    border-radius: 35%;
 }
 
-.section-all {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
+footer {
+    padding-top: 25px;
+    margin: 25px;
+    border: 50px;
     text-align: center;
-    background-color: rgb(93, 204, 65);
+    background-color: #a593c2;
 }
 
-.section-alt {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color: rgb(115, 142, 167);
+.foot {
+    text-size-adjust: 25px;
 }
 
-.section-alba {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+@media screen and (min-width: 1140px) 
+    {
+.footer{
+    max-width: 600px;
     margin: auto;
-    text-align: center;
-    background-color: blueviolet;
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
 }
-
-.footer {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-    margin: auto;
-    text-align: center;
-    background-color: rgb(94, 156, 78);
-}
-
-@media screen and (min-width: 1140px) {
-    section .row {
-        max-width: 600px;
-        margin: auto;
-        display: flex;
-        flex-grow: 3;
-        justify-content: space-between;
-        
     }
-    section .row .col {
-        padding: 1rem;
-        flex-grow: 1;
-        display: flex;
-    }
-    
-    .footer{
-        max-width: 600px;
-        margin: auto;
-        display: flex;
-        flex-grow: 1;
-        justify-content: center;
-    }
-}
